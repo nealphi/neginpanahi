@@ -60,7 +60,7 @@ const SkillsTags = () => {
             borderRadius="full"
             marginRight={"2"}
             boxSize={["20px","25px"]}
-            src="./jQuery.png"
+            src="./jquery.png"
             alt="Dan Abramov"
           />
           <TagLabel color={"gray"}>jQuery</TagLabel>
