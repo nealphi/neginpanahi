@@ -27,17 +27,17 @@ html {
 }
 
 .about {
-  background-color: #737373;
+  background-color: #404040;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   text-align: justify;
-  color: #1a1a1a;
+  color: #a6a6a6;
   padding: 15%;
 }
 
 .skills {
-  background-color: #090909;
+  background-color: rgb(27, 27, 27);
   align-content: center;
   justify-content: space-between;
   text-align: justify;

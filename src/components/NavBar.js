@@ -10,7 +10,7 @@ const NavBar = ({ onClick, isActive }) => {
       width={"100%"}
       justifyContent={"space-between"}
       alignItems={"center"}
-      color={"gray.600"}
+      color={"gray.500"}
       paddingX={"5%"}
       position={"sticky"}
       top={0}
@@ -22,7 +22,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("Intro")}
           href="#"
-          color={isActive === "Intro" ? "lightBlue" : "gray.600"}
+          color={isActive === "Intro" ? "lightBlue" : "gray.500"}
         >
           Intro
         </SimpleButton>
@@ -30,7 +30,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("About")}
           href="#"
-          color={isActive === "About" ? "lightBlue" : "gray.600"}
+          color={isActive === "About" ? "lightBlue" : "gray.500"}
         >
           About
         </SimpleButton>
@@ -38,7 +38,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("Skills")}
           href="#"
-          color={isActive === "Skills" ? "lightBlue" : "gray.600"}
+          color={isActive === "Skills" ? "lightBlue" : "gray.500"}
         >
           Skills
         </SimpleButton>
@@ -46,7 +46,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("Projects")}
           href="#"
-          color={isActive === "Projects" ? "lightBlue" : "gray.600"}
+          color={isActive === "Projects" ? "lightBlue" : "gray.500"}
         >
           Projects
         </SimpleButton>
@@ -54,7 +54,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("Resume")}
           href="#"
-          color={isActive === "Resume" ? "lightBlue" : "gray.600"}
+          color={isActive === "Resume" ? "lightBlue" : "gray.500"}
         >
           Résumé
         </SimpleButton>
@@ -62,7 +62,7 @@ const NavBar = ({ onClick, isActive }) => {
         <SimpleButton
           onClick={() => onClick("Contact")}
           href="#"
-          color={isActive === "Contact" ? "lightBlue" : "gray.600"}
+          color={isActive === "Contact" ? "lightBlue" : "gray.500"}
         >
           Contact
         </SimpleButton>
