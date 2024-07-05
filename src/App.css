@@ -62,13 +62,14 @@ html {
 }
 
 .resume {
-  background-color: #404040;
+  display: flex;
   flex-direction: column;
+  background-color: #a6a6a6;
   align-content: center;
   justify-content: center;
   text-align: justify;
-  color: #a6a6a6;
-  padding: 15%;
+  color: #404040;
+  padding: 10%;
 }
 
 .form {
@@ -122,6 +123,7 @@ font-size: 14px;
   background-color: rgb(107, 157, 172);
   color: black;
 }
+transition: all linear 0.3s;
 }
 
 .toolTag {

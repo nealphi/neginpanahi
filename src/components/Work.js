@@ -1,17 +1,17 @@
 import { Flex, Stack, Text } from "@chakra-ui/react";
 import React from "react";
 
-const Work = ({ company, title, date, description }) => {
+const Work = ({ company, title, date, children }) => {
   return (
-    <Flex>
-      <Stack >
-        <Text fontSize={['md', 'lg']} as={'b'}>{company}</Text>
-        <Text  fontSize={['sm', 'md']}>{title}</Text>
+    <Flex gap={5} >
+      <Stack width={'30%'} textAlign={'left'}>
+        <Text fontSize={['sm', 'md', 'lg']} as={'b'}>{company}</Text>
+        <Text  fontSize={['xs' ,'sm', 'md']}>{title}</Text>
         <Text  fontSize={['xs', 'sm']}>{date}</Text>
       </Stack>
-      <Stack>
-        <Text>
-        {description}
+      <Stack width={'70%'} >
+        <Text fontSize={['xs', 'sm', 'lg']} textAlign={[ 'left','justify']}>
+        {children}
         </Text>
       </Stack>
     </Flex>

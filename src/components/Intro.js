@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <Flex className="intro">
   
-        <Text fontFamily={'Title'} fontSize={'48px'} color={"lightBlue"}>
+        <Text fontFamily={'Title'} fontSize={['36px', '48px']} color={"lightBlue"}>
           NEGIN ALIPANAHI
         </Text>
         <Text fontSize={'20px'} color={"gray.600"}>

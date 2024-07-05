@@ -8,41 +8,41 @@ const Tools = () => {
         OTHER TOOLS:
       </Text>
       <Flex
-        width={"400px"}
+        width={["350px","400px"]}
         rowGap={5}
         wrap={"wrap"}
         justifyContent={"space-between"}
         marginTop={5}
       >
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Git + Github</TagLabel>
         </Tag>
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Swagger</TagLabel>
         </Tag>
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>React DevTools</TagLabel>
         </Tag>
        
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Chrome DevTools</TagLabel>
         </Tag>
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Figma</TagLabel>
         </Tag>
         
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Command Line</TagLabel>
         </Tag>
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Google Fonts</TagLabel>
         </Tag>
-        <Tag size="lg" className="toolTag">
+        <Tag size={['md','lg']} className="toolTag">
           <TagLabel>Postman</TagLabel>
         </Tag>
 
-        <Tag size="lg" className="toolTag">
-          <TagLabel>Visual Studio Code</TagLabel>
+        <Tag size={['md','lg']} className="toolTag">
+          <TagLabel>VisualSudioCode</TagLabel>
         </Tag>
       </Flex>
     </Box>
