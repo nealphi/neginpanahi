@@ -18,7 +18,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="20px"
+            boxSize={["20px","25px"]}
             src="./logo192.png"
             alt="Dan Abramov"
           />
@@ -29,7 +29,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./JS.png"
             alt="Dan Abramov"
           />
@@ -39,7 +39,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./HTML.png"
             alt="Dan Abramov"
           />
@@ -49,7 +49,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./Bootstrap.png"
             alt="Dan Abramov"
           />
@@ -59,7 +59,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./jQuery.png"
             alt="Dan Abramov"
           />
@@ -69,7 +69,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./TypeScript.png"
             alt="Dan Abramov"
           />
@@ -79,7 +79,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./NodeJs.png"
             alt="Dan Abramov"
           />
@@ -90,7 +90,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./Tailwind.png"
             alt="Dan Abramov"
           />
@@ -100,7 +100,7 @@ const SkillsTags = () => {
           <Image
             borderRadius="full"
             marginRight={"2"}
-            boxSize="25px"
+            boxSize={["20px","25px"]}
             src="./CSS.png"
             alt="Dan Abramov"
           />
