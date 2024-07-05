@@ -61,6 +61,16 @@ html {
   z-index: -10;
 }
 
+.resume {
+  background-color: #404040;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+  color: #a6a6a6;
+  padding: 15%;
+}
+
 .form {
   display: flex;
   flex-direction: column;

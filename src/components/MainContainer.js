@@ -7,6 +7,7 @@ import Intro from "./Intro";
 import { Box } from "@chakra-ui/react";
 import About from "./About";
 import SplineAnimationBg from "./SplineAnimationBg";
+import Resume from "./Resume";
 
 const MainContainer = () => {
   const [isSelectedBtn, setIsSelectedBtn] = useState("Intro");
@@ -30,8 +31,10 @@ const MainContainer = () => {
         setIsActive("Intro");
       } else if (scrollY < skillsRef.current.offsetTop) {
         setIsActive("About");
-      } else if (scrollY < contactRef.current.offsetTop) {
+      } else if (scrollY < resumeRef.current.offsetTop) {
         setIsActive("Skills");
+      } else if (scrollY < contactRef.current.offsetTop) {
+        setIsActive("Resume");
       }
       console.log("Scrolled pixels:", scrollY);
       console.log(aboutRef.current.offsetTop);
@@ -80,6 +83,8 @@ const MainContainer = () => {
       <About />
       <div ref={skillsRef}></div>
       <Skills />
+      <div ref={resumeRef}></div>
+      <Resume />
       <div ref={contactRef}></div>
       <ContactUs />
     </Box>
