@@ -14,7 +14,7 @@ const SkillsTags = () => {
         justifyContent={"space-between"}
         marginTop={5}
       >
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag size={['md','lg']} paddingY={1} borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -25,7 +25,7 @@ const SkillsTags = () => {
           <TagLabel color={"gray"}>React.js</TagLabel>
         </Tag>
 
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -35,7 +35,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>JavaScript</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -45,7 +45,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>HTML5</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -55,7 +55,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>Bootstrap</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -65,7 +65,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>jQuery</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -75,7 +75,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>TypeScript</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -86,7 +86,7 @@ const SkillsTags = () => {
           <TagLabel color={"gray"}>NodeJs</TagLabel>
         </Tag>
 
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
@@ -96,7 +96,7 @@ const SkillsTags = () => {
           />
           <TagLabel color={"gray"}>Tailwind CSS</TagLabel>
         </Tag>
-        <Tag size={['md','lg']} borderRadius="full">
+        <Tag  size={['md','lg']} paddingY={1}  borderRadius="full">
           <Image
             borderRadius="full"
             marginRight={"2"}
