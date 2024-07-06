@@ -6,7 +6,7 @@ const SplineAnimation = () => {
   return (
     <div className='spline'>
   <Spline
-        scene="https://prod.spline.design/FP5KeYSFel3b6zQI/scene.splinecode" 
+        scene="https://prod.spline.design/gSXytCj-uvOw3wqd/scene.splinecode" 
       />
     </div>
   )

@@ -8,7 +8,6 @@ padding: 0;
 
 html {
   padding: 0;
-
 }
 
 .App {
@@ -27,13 +26,13 @@ html {
 }
 
 .about {
-  background-color: #404040;
+  background-color: #111111;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   text-align: justify;
   color: #a6a6a6;
-  padding: 15%;
+  padding: 100px 15%;
 }
 
 .skills {
@@ -42,7 +41,16 @@ html {
   justify-content: space-between;
   text-align: justify;
   color: #090909;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.projects {
+  background-color: #4d4d4d;
+  align-content: center;
+  justify-content: space-between;
+  text-align: justify;
+  color: #090909;
+  padding: 100px 15%;
 }
 
 .spline {
@@ -69,15 +77,17 @@ html {
   justify-content: center;
   text-align: justify;
   color: #404040;
-  padding: 10%;
+  padding: 100px 15%;
 }
 
 .form {
+  
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 16px;
-  padding: 10%;
+  padding: 100px 15%;
 }
 
 
@@ -126,6 +136,12 @@ font-size: 14px;
 transition: all linear 0.3s;
 }
 
+.skillTag {
+   border: 1px solid rgb(62, 62, 62)!important;
+  color: gray!important;
+border-radius: 50px!important;
+background-color:transparent!important;
+}
 .toolTag {
   border: 1px solid rgb(107, 157, 172);
   color: gray!important;

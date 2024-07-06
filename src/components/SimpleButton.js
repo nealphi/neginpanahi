@@ -5,8 +5,8 @@ const SimpleButton = ({ children, onClick, color }) => {
     <Box
       as="button"
       display="flex"
-      fontSize="16px"
-      paddingX={'10PX'}
+      fontSize={["10px","14px","16px"]}
+      paddingX={["5px","10px"]}
       alignItems="center"
       color={ color }
       justifyContent="center"

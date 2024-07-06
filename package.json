@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
@@ -16,7 +17,7 @@
     "@fontsource/yeseva-one": "^5.0.20",
     "@fontsource/zen-kurenaido": "^5.0.19",
     "@splinetool/react-spline": "^4.0.0",
-    "@splinetool/runtime": "^1.8.7",
+    "@splinetool/runtime": "^1.8.9",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

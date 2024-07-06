@@ -8,6 +8,7 @@ import { Box } from "@chakra-ui/react";
 import About from "./About";
 import SplineAnimationBg from "./SplineAnimationBg";
 import Resume from "./Resume";
+import Projects from "./Projects";
 
 const MainContainer = () => {
   const [isSelectedBtn, setIsSelectedBtn] = useState("Intro");
@@ -15,8 +16,8 @@ const MainContainer = () => {
   const introRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
-  const resumeRef = useRef(null);
   const projectsRef = useRef(null);
+  const resumeRef = useRef(null);
   const contactRef = useRef(null);
 
   const onClick = (data) => {
@@ -27,17 +28,22 @@ const MainContainer = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
+      // const windowHeight = window.innerHeight;
+      // const documentHeight = document.documentElement.scrollHeight;
+    
       if (scrollY < aboutRef.current.offsetTop) {
         setIsActive("Intro");
       } else if (scrollY < skillsRef.current.offsetTop) {
         setIsActive("About");
-      } else if (scrollY < resumeRef.current.offsetTop) {
+      } else if (scrollY < projectsRef.current.offsetTop) {
         setIsActive("Skills");
+      } else if (scrollY < resumeRef.current.offsetTop) {
+        setIsActive("Projects");
       } else if (scrollY < contactRef.current.offsetTop) {
         setIsActive("Resume");
-      }
-      console.log("Scrolled pixels:", scrollY);
-      console.log(aboutRef.current.offsetTop);
+      } else if (scrollY >= contactRef.current.offsetTop) {
+        setIsActive("Contact");
+      } 
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -46,6 +52,10 @@ const MainContainer = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(()=>{
+    console.log(isActive)
+  },[isActive])
 
   useEffect(() => {
     const scrollToRef = (ref) => {
@@ -63,19 +73,23 @@ const MainContainer = () => {
       scrollToRef(aboutRef);
     } else if (isSelectedBtn === "Skills") {
       scrollToRef(skillsRef);
-    } else if (isSelectedBtn === "Resume") {
-      scrollToRef(resumeRef);
     } else if (isSelectedBtn === "Projects") {
       scrollToRef(projectsRef);
+    } else if (isSelectedBtn === "Resume") {
+      scrollToRef(resumeRef);
     } else if (isSelectedBtn === "Contact") {
       scrollToRef(contactRef);
     }
     return setIsSelectedBtn(" ");
   }, [isSelectedBtn]);
 
+  useEffect(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+  }, []);
+
   return (
-    <Box display={"flex"} flexDirection={"column"}>
-      <div ref={introRef}></div>
+    <Box ref={introRef} display={"flex"} flexDirection={"column"}>
+      <div ></div>
       <NavBar onClick={(data) => onClick(data)} isActive={isActive} />
       <SplineAnimationBg />
       <Intro />
@@ -83,6 +97,8 @@ const MainContainer = () => {
       <About />
       <div ref={skillsRef}></div>
       <Skills />
+      <div ref={projectsRef}></div>
+      <Projects />
       <div ref={resumeRef}></div>
       <Resume />
       <div ref={contactRef}></div>

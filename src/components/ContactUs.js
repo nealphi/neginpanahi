@@ -25,7 +25,7 @@ export const ContactUs = () => {
   return (
     <Stack className="form">
       <Stack>
-        <Text  fontSize={42} color={"lightBlue"} mb={10}>
+        <Text  fontSize={["32px","42px"]} color={"lightBlue"} mb={10}>
           LET'S GET IN TOUCH!
         </Text>
       </Stack>

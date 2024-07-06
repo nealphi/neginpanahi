@@ -14,34 +14,34 @@ const Tools = () => {
         justifyContent={"space-between"}
         marginTop={5}
       >
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Git + Github</TagLabel>
         </Tag>
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Swagger</TagLabel>
         </Tag>
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>React DevTools</TagLabel>
         </Tag>
        
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Chrome DevTools</TagLabel>
         </Tag>
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Figma</TagLabel>
         </Tag>
         
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Command Line</TagLabel>
         </Tag>
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Google Fonts</TagLabel>
         </Tag>
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>Postman</TagLabel>
         </Tag>
 
-        <Tag  size={['md','lg']} paddingY={1}  className="toolTag">
+        <Tag  size={['md','lg']} paddingY={'7px'}  className="toolTag">
           <TagLabel>VisualSudioCode</TagLabel>
         </Tag>
       </Flex>

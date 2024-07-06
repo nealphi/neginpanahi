@@ -5,8 +5,8 @@ const Work = ({ company, title, date, children }) => {
   return (
     <Flex gap={5} >
       <Stack width={'30%'} textAlign={'left'}>
-        <Text fontSize={['sm', 'md', 'lg']} as={'b'}>{company}</Text>
-        <Text  fontSize={['xs' ,'sm', 'md']}>{title}</Text>
+        <Text fontSize={['sm', 'md', 'lg']} as={'b'}>{title}</Text>
+        <Text  fontSize={['xs' ,'sm', 'md']}>{company}</Text>
         <Text  fontSize={['xs', 'sm']}>{date}</Text>
       </Stack>
       <Stack width={'70%'} >

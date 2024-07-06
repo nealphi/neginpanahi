@@ -1,19 +1,16 @@
-import { Box, Flex} from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 
 const About = () => (
-  <Flex
-    className="about"
-    fontSize={["sm", "md", "lg"]}
-    gap={5}
-  >
-    <Box>
-      Back in 2020, during the COVID-19 pandemic, I decided to try my hand on
-      something highly engaging to survive the lockdown. My first foray into web
-      development was building a WordPress website for my online business that I
-      had founded just a few months earlier. This project led me deep down the
-      rabbit hole of coding and web development, ending up working at a Tech
-      company as a Frontend web developer in the following year.
-    </Box>
+  <Flex className="about" fontSize={["xs", "sm", "md", "lg"]} gap={10}>
+      <Box>
+        Back in 2020, during the COVID-19 pandemic, I decided to try my hand on
+        something highly engaging to survive the lockdown. My first foray into
+        web development was building a WordPress website for my online business
+        that I had founded just a few months earlier. This project led me deep down the rabbit hole of coding and web
+      development, ending up working at a Tech company as a Frontend web
+      developer in the following year.
+      </Box>
+ 
     <Box>
       With over three years of hands-on experience in frontend technologies, I
       have a deep understanding of computer science fundamentals, strong
@@ -26,21 +23,30 @@ const About = () => (
       practical and aesthetic standpoint. Minimal on the surface yet maximal in
       functionality, are the designs I most enjoy working on.
     </Box>
-    <Box>
-      Photography has been a lifelong hobby of mine. Through the lens, I explore
-      different perspectives, play with light and shadow, and document moments
-      that inspire and evoke emotion. This passion for photography enhances my
-      attention to detail and my appreciation for aesthetics, both of which are
-      crucial in my approach to design and development.
-    </Box>
-    <Box>
-      When I'm not at the computer, you can find me in my studio, behind my
-      sewing machine, indulging in my obsession with design and creation. I love
-      experimenting with fabrics, patterns, and textures, bringing my ideas to
-      life through detailed craftsmanship and innovative designs. This hands-on
-      approach to creativity not only fuels my passion but also inspires my work
-      in the digital realm.
-    </Box>
+    <Flex flexDirection={["column", "column", "row"]} gap={5}>
+      <Image src="./moon.jpg" width={["100%", "100%", "50%"]} />
+
+      <Box>
+        Photography has been a lifelong hobby of mine. Through the lens, I
+        explore different perspectives, play with light and shadow, and document
+        moments that inspire and evoke emotion. <br /> This passion for
+        photography enhances my attention to detail and my appreciation for
+        aesthetics, both of which are crucial in my approach to design and
+        development.
+      </Box>
+    </Flex>
+    <Flex flexDirection={["column", "column", "row"]} alignContent={""} gap={5}>
+      <Box>
+        {" "}
+        When I'm not at the computer, you can find me in my studio, behind my
+        sewing machine, indulging in my obsession with design and creation.
+        <br /> I love experimenting with fabrics, patterns, and textures,
+        bringing my ideas to life through detailed craftsmanship and innovative
+        designs. This hands-on approach to creativity not only fuels my passion
+        but also inspires my work in the digital realm.
+      </Box>
+      <Image src="./nealphi_grayscale.jpg" width={["100%", "100%", "50%"]} />
+    </Flex>
   </Flex>
 );
 

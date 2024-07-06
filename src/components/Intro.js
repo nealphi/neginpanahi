@@ -8,7 +8,7 @@ const Intro = () => {
         <Text fontFamily={'Title'} fontSize={['36px', '48px']} color={"lightBlue"}>
           NEGIN ALIPANAHI
         </Text>
-        <Text fontSize={'20px'} color={"gray.600"}>
+        <Text fontSize={'20px'} color={"gray.400"}>
           Frontend Web Developer / Designer
         </Text>
 

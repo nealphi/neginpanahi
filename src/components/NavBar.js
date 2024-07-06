@@ -5,13 +5,13 @@ import SimpleButton from "./SimpleButton";
 const NavBar = ({ onClick, isActive }) => {
   return (
     <Flex
-    display={['none','flex']}
+    display={['flex']}
       height={"100px"}
       width={"100%"}
       justifyContent={"space-between"}
       alignItems={"center"}
       color={"gray.500"}
-      paddingX={"5%"}
+      paddingX={'5%'}
       position={"sticky"}
       top={0}
       zIndex={10}
