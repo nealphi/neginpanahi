@@ -9,7 +9,6 @@ import About from "./About";
 import SplineAnimationBg from "./SplineAnimationBg";
 import Resume from "./Resume";
 import Projects from "./Projects";
-import SocialMediaLinks from "./SocialMediaLinks";
 
 const MainContainer = () => {
   const [isSelectedBtn, setIsSelectedBtn] = useState("Intro");

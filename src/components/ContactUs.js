@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { HStack, Stack, Text } from "@chakra-ui/react";
+import { Stack, Text } from "@chakra-ui/react";
 import SocialMediaLinks from "./SocialMediaLinks";
 export const ContactUs = () => {
   const form = useRef();
@@ -25,39 +25,41 @@ export const ContactUs = () => {
   return (
     <Stack className="form">
       <Stack>
-        <Text  fontSize={["32px","42px"]} color={"lightBlue"} mb={10}>
+        <Text fontSize={["32px", "42px"]} color={"lightBlue"} mb={10}>
           LET'S GET IN TOUCH!
         </Text>
       </Stack>
+      <Stack width={["250px", "600px"]}>
+        <form ref={form} onSubmit={sendEmail}>
+          <Stack alignItems={"flex-start"} gap={10}>
+            <Stack width={["250px", "600px"]} gap={10}>
+              <Stack alignItems={"flex-start"}>
+                <label className="lable">Name</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Enter your name"
+                />
+              </Stack>
 
-      <form ref={form} onSubmit={sendEmail}>
-        <Stack alignItems={"flex-start"} gap={10}>
-          <HStack display={"flex"} justifyContent={"space-between"} gap={10}>
-            <Stack alignItems={"flex-start"}>
-              <label className="lable">Name</label>
-              <input
-                type="text"
-                name="user_name"
-                placeholder="Enter your name"
-              />
+              <Stack alignItems={"flex-start"}>
+                <label className="lable">Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Enter your Email"
+                />
+              </Stack>
             </Stack>
-
-            <Stack alignItems={"flex-start"}>
-              <label className="lable">Email</label>
-              <input
-                type="email"
-                name="user_email"
-                placeholder="Enter your Email"
-              />
+            <Stack alignItems={"flex-start"} width={"100%"} mb={10}>
+              <label className="lable">Message</label>
+              <textarea name="message" />
+              <input className="submit" type="submit" value="Send" />
             </Stack>
-          </HStack>
-          <Stack alignItems={"flex-start"} width={"100%"} mb={10}>
-            <label className="lable">Message</label>
-            <textarea name="message" />
-            <input className="submit" type="submit" value="Send" />
           </Stack>
-        </Stack>
-      </form>
+        </form>
+      </Stack>
+
       <SocialMediaLinks />
     </Stack>
   );
