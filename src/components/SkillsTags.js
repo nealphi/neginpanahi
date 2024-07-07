@@ -4,7 +4,7 @@ import React from "react";
 const SkillsTags = () => {
   return (
     <Box pb={"70px"}>
-      <Text color={"gray.500"} as={"b"}>
+      <Text fontSize={["sm", "md", "lg"]} color={"gray.500"} mb={2}>
         DEVELOPMENT SKILLS:
       </Text>
       <Flex

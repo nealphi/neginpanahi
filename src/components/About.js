@@ -1,17 +1,20 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 const About = () => (
-  <Flex className="about" fontSize={["xs", "sm", "md", "lg"]} gap={10}>
-      <Box>
-        Back in 2020, during the COVID-19 pandemic, I decided to try my hand on
-        something highly engaging to survive the lockdown. My first foray into
-        web development was building a WordPress website for my online business
-        that I had founded just a few months earlier. This project led me deep down the rabbit hole of coding and web
-      development, ending up working at a Tech company as a Frontend web
-      developer in the following year.
-      </Box>
- 
-    <Box>
+  <Flex className="about" fontSize={["xs", "sm", "md"]} gap={10}>
+    
+   <Box>
+   <Text fontSize={["sm", "md", "lg"]} color={"lightBlue"} mb={2}>
+   MY CODING JOURNEY
+    </Text>
+   <Box>
+      Back in 2020, during the COVID-19 pandemic, I decided to try my hand on
+      something highly engaging to survive the lockdown. My first foray into web
+      development was building a WordPress website for my online business that I
+      had founded just a few months earlier. This project led me deep down the
+      rabbit hole of coding and web development, ending up working at a Tech
+      company as a Frontend web developer in the following year.
+   <br/>
       With over three years of hands-on experience in frontend technologies, I
       have a deep understanding of computer science fundamentals, strong
       proficiency in UI/UX design principles, and expertise in developing
@@ -23,11 +26,16 @@ const About = () => (
       practical and aesthetic standpoint. Minimal on the surface yet maximal in
       functionality, are the designs I most enjoy working on.
     </Box>
+
+   </Box>
+   <Box>
+    <Text fontSize={["sm", "md", "lg"]} color={"lightBlue"} mb={2}>
+      THROUGH MY EYES
+    </Text>
     <Flex flexDirection={["column", "column", "row"]} gap={5}>
       <Image src="./moon.jpg" width={["100%", "100%", "50%"]} />
-
       <Box>
-        Photography has been a lifelong hobby of mine. Through the lens, I
+        Photography has been a lifelong escape for me. Through the lens, I
         explore different perspectives, play with light and shadow, and document
         moments that inspire and evoke emotion. <br /> This passion for
         photography enhances my attention to detail and my appreciation for
@@ -35,6 +43,11 @@ const About = () => (
         development.
       </Box>
     </Flex>
+    </Box>
+    <Box>
+    <Text fontSize={["sm", "md", "lg"]} color={"lightBlue"} mb={2}>
+      MY FAVORITE CORNER
+    </Text>
     <Flex flexDirection={["column", "column", "row"]} alignContent={""} gap={5}>
       <Box>
         {" "}
@@ -47,6 +60,7 @@ const About = () => (
       </Box>
       <Image src="./nealphi_grayscale.jpg" width={["100%", "100%", "50%"]} />
     </Flex>
+    </Box>
   </Flex>
 );
 

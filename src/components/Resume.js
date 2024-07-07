@@ -25,97 +25,82 @@ const Resume = () => {
         title={"Frontend Developer"}
         date={"May 2021 - May 2024"}
       >
-        <Text pb={2}>
+        <Box fontSize={["xs", "sm", "md"]}>
           - Engineered and deployed highly customizable, reusable, and dynamic
           frontend components with <b> React and TypeScript</b>, significantly
           improving development efficiency and application performance.
-        </Text>
-        <Text pb={2}>
-          - Boosted page speed by 15% through the strategic optimization of
+          <br />- Boosted page speed by 15% through the strategic optimization
+          of
           <b> RESTful API</b> calls, enhancing user experience and site
           performance.
-        </Text>
-        <Text pb={2}>
-          - Achieved a 20% surge in mobile traffic by implementing cutting-edge{" "}
-          <b>responsive designs</b>, ensuring optimal user engagement across all
-          devices.
-        </Text>
-        <Text pb={2}>
-          - Coordinated with <b> cross-functional</b> teams to consistently
-          achieve and surpass project milestones and deadlines, ensuring timely
-          and successful project completion.
-        </Text>
+          <br />- Achieved a 20% surge in mobile traffic by implementing
+          cutting-edge <b>responsive designs</b>, ensuring optimal user
+          engagement across all devices.
+          <br />- Coordinated with <b> cross-functional</b> teams to
+          consistently achieve and surpass project milestones and deadlines,
+          ensuring timely and successful project completion.
+        </Box>
       </Work>
       <Work
         company={"Pelak, Tehran, Iran"}
         title={"Frontend Developer (Intern)"}
         date={"Mar 2021 - May 2021"}
       >
-        <Text pb={2}>
+        <Box fontSize={["xs", "sm", "md"]}>
           - Assisted the development team in developing and debugging the web
           application.
-        </Text>
-        <Text pb={2}>
-          - Gained experience working with RESTful APIs and asynchronous request
-          handling.{" "}
-        </Text>
-        <Text pb={2}>
+          <br />- Gained experience working with <b>RESTful APIs</b> and
+          asynchronous request handling. <br />
           - Collaborated closely with graphic designers and engineers to
           implement web and software design features that align with client
           needs and project goals.
-        </Text>
-        <Text pb={2}>
-          - Implemented accessibility standards such as WCAG 2.0 to ensure
-          maximum user experience.
-        </Text>
+          <br />- Implemented <b>accessibility standards</b> such as WCAG 2.0 to
+          ensure maximum user experience.
+        </Box>
       </Work>
       <Work
         company={"NEALPHI, Tehran, Iran "}
         title={"Founder / CEO "}
         date={"Feb 2020 - May 2024"}
       >
-        <Text pb={2}>
-          - Successfully established and managed different aspects of an Online
-          Store.
-        </Text>
-        <Text pb={2}>
-          - Developed an online shop website using <b>WordPress</b>,
+        <Box fontSize={["xs", "sm", "md"]}>
+          - Successfully established and managed different aspects of an{" "}
+          <b>Online Store</b>.
+          <br />- Developed an online shop website using <b>WordPress</b>,
           implementing custom design elements ensuring functionality for
           e-commerce transactions.
-        </Text>
-        <Text pb={2}>
+          <br />
           - Utilized WordPress plugins and custom coding to enhance website
           performance and UX.
-        </Text>
-        <Text pb={2}>
+          <br />
           - Provided ongoing maintenance and support for the website, including
           troubleshooting technical issues and implementing updates.
-        </Text>
-        <Text pb={2}>
-          - Implemented SEO best practices to improve website visibility.
-        </Text>
+          <br />- Implemented SEO best practices to improve website visibility.
+        </Box>
       </Work>
       <Work
         company={"Golandishe IT-Company, Tehran, Iran"}
         title={"Assistant Project Manager "}
         date={"Aug 2014 - Mar 2018"}
       >
-        <Text pb={2}>
+        <Box fontSize={["xs", "sm", "md"]}>
           - Analyzing business and operational processes and preparing process
           charts.
-        </Text>
-        <Text pb={2}>
+          <br />
           - Breaking the operational processes into activities, and creating
           work breakdown structures.
-        </Text>{" "}
-        <Text pb={2}>
-          - Creating reports on project progress using MS project software and
-          submitting them to Project Managers.
-        </Text>
+          <br />- Creating reports on project progress using MS project software
+          and submitting them to Project Managers.
+        </Box>
       </Work>
       <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"}>
         EDUCATION
       </Text>
+      <Education
+        major={"MA Applied Arts - Textile and Apparel Design"}
+        institute={"Tehran University of Art"}
+        date={"Sep 2017 - Feb 2020"}
+      />
       <Education
         major={
           "M.Sc. Industrial Engineering - System Management and Productivity"

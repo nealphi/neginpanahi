@@ -9,6 +9,7 @@ import About from "./About";
 import SplineAnimationBg from "./SplineAnimationBg";
 import Resume from "./Resume";
 import Projects from "./Projects";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 const MainContainer = () => {
   const [isSelectedBtn, setIsSelectedBtn] = useState("Intro");
@@ -30,7 +31,7 @@ const MainContainer = () => {
       const scrollY = window.scrollY;
       // const windowHeight = window.innerHeight;
       // const documentHeight = document.documentElement.scrollHeight;
-    
+
       if (scrollY < aboutRef.current.offsetTop) {
         setIsActive("Intro");
       } else if (scrollY < skillsRef.current.offsetTop) {
@@ -43,7 +44,7 @@ const MainContainer = () => {
         setIsActive("Resume");
       } else if (scrollY >= contactRef.current.offsetTop) {
         setIsActive("Contact");
-      } 
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -53,9 +54,9 @@ const MainContainer = () => {
     };
   }, []);
 
-  useEffect(()=>{
-    console.log(isActive)
-  },[isActive])
+  useEffect(() => {
+    console.log(isActive);
+  }, [isActive]);
 
   useEffect(() => {
     const scrollToRef = (ref) => {
@@ -84,12 +85,12 @@ const MainContainer = () => {
   }, [isSelectedBtn]);
 
   useEffect(() => {
-      window.scrollTo({ top: 0, behavior: "smooth" })
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
   return (
     <Box ref={introRef} display={"flex"} flexDirection={"column"}>
-      <div ></div>
+
       <NavBar onClick={(data) => onClick(data)} isActive={isActive} />
       <SplineAnimationBg />
       <Intro />

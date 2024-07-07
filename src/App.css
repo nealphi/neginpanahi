@@ -44,14 +44,7 @@ html {
   padding-bottom: 100px;
 }
 
-.projects {
-  background-color: #4d4d4d;
-  align-content: center;
-  justify-content: space-between;
-  text-align: justify;
-  color: #090909;
-  padding: 100px 15%;
-}
+
 
 .spline {
   display: flex;
@@ -80,8 +73,26 @@ html {
   padding: 100px 15%;
 }
 
+.projects {
+  background-color: #4d4d4d;
+  align-content: center;
+  justify-content: space-between;
+  text-align: justify;
+  color: #090909;
+  padding: 100px 15%;
+}
+
+.projectLayout {
+  padding: 15px;
+  border-radius: 10px;
+  background-color:#404040;
+  color: #a6a6a6;
+  &:hover {
+    background-color:#373737;
+  }
+  transition: all linear 0.3s;
+}
 .form {
-  
   height: 100vh;
   display: flex;
   flex-direction: column;
