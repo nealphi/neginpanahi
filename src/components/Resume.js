@@ -10,7 +10,7 @@ const Resume = () => {
       <Link
         fontSize={"lg"}
         color={"gray.100"}
-        href="./WebDeveloper_NeginAlipanahi.pdf"
+        href="./Negin Alipanahi_Resume.pdf"
         isExternal
         _hover={{ color: "darkBlue" }}
         fontWeight={"bold"}
@@ -70,48 +70,31 @@ const Resume = () => {
           implementing custom design elements ensuring functionality for
           e-commerce transactions.
           <br />
-          - Utilized WordPress plugins and custom coding to enhance website
-          performance and UX.
+          - Utilized WordPress plugins and custom coding to enhance <b>website
+          performance</b> and UX.
           <br />
           - Provided ongoing maintenance and support for the website, including
           troubleshooting technical issues and implementing updates.
-          <br />- Implemented SEO best practices to improve website visibility.
+          <br />- Implemented <b>SEO best practices</b> to improve website visibility.
         </Box>
       </Work>
-      <Work
-        company={"Golandishe IT-Company, Tehran, Iran"}
-        title={"Assistant Project Manager "}
-        date={"Aug 2014 - Mar 2018"}
-      >
-        <Box fontSize={["xs", "sm", "md"]}>
-          - Analyzing business and operational processes and preparing process
-          charts.
-          <br />
-          - Breaking the operational processes into activities, and creating
-          work breakdown structures.
-          <br />- Creating reports on project progress using MS project software
-          and submitting them to Project Managers.
-        </Box>
-      </Work>
+     
       <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"}>
         EDUCATION
       </Text>
       <Education
-        major={"MA Applied Arts - Textile and Apparel Design"}
+        major={"MA Applied Arts"}
         institute={"Tehran University of Art"}
-        date={"Sep 2017 - Feb 2020"}
       />
       <Education
         major={
           "M.Sc. Industrial Engineering - System Management and Productivity"
         }
         institute={"IAU-TNB"}
-        date={"Jan 2013 - Jan 2015"}
       />
       <Education
         major={"B.Sc. Industrial Engineering - Planning and System Analysis"}
         institute={"IAU-TNB"}
-        date={"Sep 2008 - May 2012"}
       />
     </Box>
   );
