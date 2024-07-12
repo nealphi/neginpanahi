@@ -16,6 +16,18 @@ const Projects = () => {
       </ProjectLayout>
 
       <ProjectLayout
+        href="https://www.neginalipanahi.com/"
+        title={"Personal Website Project"}
+      >
+        Designed and developed a personal website using React.js that is fully
+        responsive, ensuring optimal display on various devices. The site
+        features a clean and modern look achieved with Chakra UI and Bootstrap
+        for styling. It also includes interactive animations created with
+        Spline, enhancing user engagement and providing a dynamic browsing
+        experience.
+      </ProjectLayout>
+
+      <ProjectLayout
         href="https://neginalipanahi-portfolio.vercel.app/"
         title={"Portfolio Project"}
       >
