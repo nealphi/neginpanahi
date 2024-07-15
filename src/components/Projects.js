@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectLayout from "./ProjectLayout";
-import { Box, Flex, Link, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
 const Projects = () => {
   return (
@@ -25,6 +25,16 @@ const Projects = () => {
         for styling. It also includes interactive animations created with
         Spline, enhancing user engagement and providing a dynamic browsing
         experience.
+      </ProjectLayout>
+
+      <ProjectLayout
+        href="https://weatherforcastapplication.vercel.app/"
+        title={"Weather Forecast Project"}
+      >
+        Designed and developed a weather forecast application using React.js, enhanced with
+        eye-catching and interactive 3D animations created in Spline. The
+        application provides a visually engaging and dynamic user experience,
+        and it has been deployed on Vercel for seamless access.
       </ProjectLayout>
 
       <ProjectLayout
