@@ -31,10 +31,11 @@ const Projects = () => {
         href="https://weatherforcastapplication.vercel.app/"
         title={"Weather Forecast Project"}
       >
-        Designed and developed a weather forecast application using React.js, enhanced with
-        eye-catching and interactive 3D animations created in Spline. The
+        Designed and developed a weather forecast application using React.js,
+        enhanced with interactive 3D animations created in Spline. The
         application provides a visually engaging and dynamic user experience,
-        and it has been deployed on Vercel for seamless access.
+        and ensures reliable and comprehensive weather data for various
+        locations by integrating the OpenWeather API.
       </ProjectLayout>
 
       <ProjectLayout
