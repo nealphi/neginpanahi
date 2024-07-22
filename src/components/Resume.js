@@ -59,26 +59,26 @@ const Resume = () => {
         </Box>
       </Work>
       <Work
-        company={"NEALPHI, Tehran, Iran "}
-        title={"Founder / CEO "}
-        date={"Feb 2020 - May 2024"}
+        company={"Golandishe IT-company, Tehran, Iran "}
+        title={"Assistant IT Project Manager"}
+        date={"Aug 2014 - Mar 2018"}
       >
         <Box fontSize={["xs", "sm", "md"]}>
-          - Successfully established and managed different aspects of an{" "}
-          <b>Online Store</b>.
-          <br />- Developed an online shop website using <b>WordPress</b>,
-          implementing custom design elements ensuring functionality for
-          e-commerce transactions.
+          - Analyzed business and operational processes, preparing detailed
+          process charts and work breakdown structures to enhance efficiency.
+          <br />- Assisted in developing detailed project plans, timelines, and
+          resource allocation, ensuring project objectives were met on time and
+          within budget.
           <br />
-          - Utilized WordPress plugins and custom coding to enhance <b>website
-          performance</b> and UX.
-          <br />
-          - Provided ongoing maintenance and support for the website, including
-          troubleshooting technical issues and implementing updates.
-          <br />- Implemented <b>SEO best practices</b> to improve website visibility.
+          - Created and submitted comprehensive project progress reports using
+          MS Project to ensure timely and accurate communication with Project
+          Managers.
+          <br />- Facilitated effective communication between stakeholders, team
+          members, and clients, ensuring all parties were informed of project
+          progress, changes, and issues.
         </Box>
       </Work>
-     
+
       <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"}>
         EDUCATION
       </Text>
