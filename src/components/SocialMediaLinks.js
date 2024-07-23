@@ -7,7 +7,7 @@ import LinkButton from "./LinkButton";
 
 const SocialMediaLinks = () => {
   return (
-    <Flex justifyContent={"space-between"}>
+    <Flex justifyContent={"space-between"} my={["10","20"]}>
       <LinkButton href="https://github.com/nealphi">
         <Icon boxSize={6} as={FaGithub} />
       </LinkButton>

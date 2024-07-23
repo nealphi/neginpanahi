@@ -41,16 +41,21 @@ html {
   justify-content: space-between;
   text-align: justify;
   color: #090909;
-  padding-bottom: 100px;
+  padding: 100px 15%;
+  position: relative;
 }
 
-
+.swipe {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  top: 500px;
+  z-index: 5;
+}
 
 .spline {
   display: flex;
   height: 600px;
-  display: flex;
-
 }
 
 .spline-bg{
@@ -92,8 +97,8 @@ html {
   }
   transition: all linear 0.3s;
 }
+
 .form {
-  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -102,13 +107,22 @@ html {
   padding: 100px 15%;
 }
 
+form {
+  width: 90%;
+  max-width: 600px;
+}
+
+.login {
+display: flex;
+flex-direction: column;
+}
 
 input {
-width: 100%!important;
 height: 35px;
 color: black;
 background-color: transparent;
 padding: 5px;
+margin: 10px 0;
 border-bottom: 1px solid gray;
 outline:transparent!important;
 
@@ -118,17 +132,17 @@ outline:transparent!important;
 }
 }
 
+.text-aria {
+  display: flex;
+  flex-direction: column;
+}
 textarea {
-width: 100%;
 height: 200px;
 background-color: #1a1a1a;
 border-bottom: 1px solid gray;
 margin: 10px 0;
 outline: none;
 padding: 10px;
-
-
-
 }
 
 .lable {
@@ -136,9 +150,9 @@ font-size: 14px;
 }
 
 .submit {
-  width: 100%;
   height: 50px;
   background-color: transparent;
+  margin: 10px 0;
   border: 1px solid gray;
   color: gray;
   cursor: pointer;
