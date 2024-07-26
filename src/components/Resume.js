@@ -6,7 +6,7 @@ import Education from "./Education";
 
 const Resume = () => {
   return (
-    <Box className="resume" gap={10}>
+    <Box className="resume" gap={10} px={["10%","15%"]}>
       <Link
         fontSize={"lg"}
         color={"gray.100"}

@@ -4,7 +4,7 @@ import { Flex } from "@chakra-ui/react";
 
 const Projects = () => {
   return (
-    <Flex className="projects" flexDirection={["column"]} gap={10}>
+    <Flex className="projects" flexDirection={["column"]} gap={10} px={["10%","15%"]}>
       <ProjectLayout
         href="https://game-hub-liart-sigma.vercel.app/"
         title={"Game-Hub Project"}
