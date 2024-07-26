@@ -41,7 +41,7 @@ html {
   justify-content: space-between;
   text-align: justify;
   color: #090909;
-  padding: 100px 15%;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -55,7 +55,7 @@ html {
 
 .spline {
   display: flex;
-  height: 600px;
+  height: 500px;
 }
 
 .spline-bg{
