@@ -4,7 +4,7 @@ import { Flex } from "@chakra-ui/react";
 
 const Projects = () => {
   return (
-    <Flex className="projects" flexDirection={["column"]} gap={5}>
+    <Flex className="projects" flexDirection={["column"]} gap={10}>
       <ProjectLayout
         href="https://game-hub-liart-sigma.vercel.app/"
         title={"Game-Hub Project"}
@@ -29,7 +29,7 @@ const Projects = () => {
 
       <ProjectLayout
         href="https://weatherforcastapplication.vercel.app/"
-        title={"Weather Forecast Project"}
+        title={"Weather Forecast Application"}
       >
         Designed and developed a weather forecast application using React.js,
         enhanced with interactive 3D animations created in Spline. The
