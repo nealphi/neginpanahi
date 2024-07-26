@@ -17,7 +17,7 @@ const Resume = () => {
       >
         View Full Résumé <ExternalLinkIcon mx="2px" />
       </Link>
-      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"}>
+      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"} borderBottom={'2px'}>
         PROFESSIONAL EXPERIENCE
       </Text>
       <Work
@@ -79,7 +79,7 @@ const Resume = () => {
         </Box>
       </Work>
 
-      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"}>
+      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"} borderBottom={'2px'}>
         EDUCATION
       </Text>
       <Education
