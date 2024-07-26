@@ -29,7 +29,7 @@ const Projects = () => {
 
       <ProjectLayout
         href="https://weatherforcastapplication.vercel.app/"
-        title={"Weather Forecast Application"}
+        title={"Weather Forecast App"}
       >
         Designed and developed a weather forecast application using React.js,
         enhanced with interactive 3D animations created in Spline. The
