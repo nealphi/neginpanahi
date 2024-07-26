@@ -1,12 +1,17 @@
 import React from "react";
 import Work from "./Work";
-import { Box, Link, Text } from "@chakra-ui/react";
+import { Box, Grid, Link, Text } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Education from "./Education";
 
 const Resume = () => {
   return (
-    <Box className="resume" gap={10} px={["10%","15%"]}>
+    <Box
+      className="resume"
+     
+      gap={10}
+      px={["10%", "15%"]}
+    >
       <Link
         fontSize={"lg"}
         color={"gray.100"}
@@ -17,7 +22,12 @@ const Resume = () => {
       >
         View Full Résumé <ExternalLinkIcon mx="2px" />
       </Link>
-      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"} borderBottom={'2px'}>
+      <Text
+        fontSize={["md", "lg"]}
+        as={"b"}
+        color={"darkBlue"}
+        borderBottom={"2px"}
+      >
         PROFESSIONAL EXPERIENCE
       </Text>
       <Work
@@ -79,7 +89,12 @@ const Resume = () => {
         </Box>
       </Work>
 
-      <Text fontSize={["md", "lg"]} as={"b"} color={"darkBlue"} borderBottom={'2px'}>
+      <Text
+        fontSize={["md", "lg"]}
+        as={"b"}
+        color={"darkBlue"}
+        borderBottom={"2px"}
+      >
         EDUCATION
       </Text>
       <Education
